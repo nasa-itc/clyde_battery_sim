@@ -1,0 +1,16 @@
+{
+    "log_level": "info",
+    "nos": {
+        "uri": "tcp://127.0.0.1:12000",
+        "node": "imu",
+        "i2c_bus": "i2c_0"
+    },
+    "battery_01" : {
+        "address": 45,
+        "data": { }},
+    "battery_02" : {
+        "address": 42,
+        "data": { }
+    }
+}
+
