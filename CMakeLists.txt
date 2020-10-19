@@ -1,6 +1,6 @@
 project(battery_sim CXX)
 
-find_package(Boost REQUIRED QUIET COMPONENTS program_options)
+find_package(Boost REQUIRED QUIET COMPONENTS program_options system)
 find_package(ITC_Common REQUIRED QUIET COMPONENTS itc_logger)
 find_package(NOSENGINE REQUIRED QUIET COMPONENTS i2c transport)
 
